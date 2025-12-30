@@ -121,7 +121,7 @@ export default function Page() {
                   <ul className="mt-3 list-disc pl-6 text-ash">
                     <li> Datos alojados en Chile - Cumplimiento normativo local</li>
                     <li> Seguridad avanzada: datos, conectividad y hosts</li>
-                    <li> Respaldo con 2 Datacenters separados a 70 km (RM)</li>
+                    <li> Respaldo con 2 Datacenters</li>
                     <li> Certificación Tier 3 Uptime Institute</li>
                   </ul>
                 </div>
@@ -145,8 +145,8 @@ export default function Page() {
                 <div className="rounded-2xl bg-white p-6 shadow-sm border border-ash/10 flex flex-col h-full">
                   <h4 className="text-lg font-semibold text-ink"> 4. Infraestructura de Futuro</h4>
                   <ul className="mt-3 list-disc pl-6 text-ash">
-                    <li> Tercer Datacenter habilitado (2023)</li>
-                    <li> +210 servicios especializados</li>
+                    <li> Tercer Datacenter habilitado</li>
+                    <li> +70 servicios especializados</li>
                     <li> Personalización total según tu negocio</li>
                   </ul>
                 </div>
