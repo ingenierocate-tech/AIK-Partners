@@ -72,7 +72,7 @@ export default function Page() {
                   </h4>
                 </div>
                 <div className="w-full">
-                  <Image src="/images/aik-benefits.png" alt="Ciclo de Gestión Empresarial con SAP Business One" width={768} height={917} className="w-full h-auto object-contain" />
+                  <Image src="/images/aik-benefits2.png" alt="Ciclo de Gestión Empresarial con SAP Business One" width={768} height={917} className="w-full h-auto object-contain" />
                 </div>
               </div>
             </div>
