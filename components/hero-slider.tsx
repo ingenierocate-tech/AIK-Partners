@@ -78,8 +78,8 @@ export default function HeroSlider() {
               ))}
             </div>
           </div>
-          <div className="hidden md:flex justify-end">
-            <div className={`${fading ? 'opacity-0 translate-y-1' : 'opacity-100 translate-y-0'} transition-all duration-500 ease-in-out relative w-full md:w-[640px] md:h-[420px] lg:h-[500px] rounded-xl overflow-hidden border-none`}>
+          <div className="flex justify-center md:justify-end">
+            <div className={`${fading ? 'opacity-0 translate-y-1' : 'opacity-100 translate-y-0'} transition-all duration-500 ease-in-out relative w-full h-[240px] md:w-[640px] md:h-[420px] lg:h-[500px] rounded-xl overflow-hidden border-none`}>
               <Image src={slides[index].imageSrc} alt={slides[index].imageAlt} fill className="object-cover" priority />
             </div>
           </div>
