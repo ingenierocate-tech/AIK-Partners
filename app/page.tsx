@@ -275,7 +275,7 @@ export default function Page() {
         </div>
       </section>
 
-      <WhatsAppButton />
+      {/* <WhatsAppButton /> */}
       <Footer />
     </main>
   )
