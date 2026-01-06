@@ -15,7 +15,7 @@ export default function Header() {
     const observer = new IntersectionObserver(entries => {
       const visible = entries.filter(e => e.isIntersecting).sort((a,b) => b.intersectionRatio - a.intersectionRatio)[0]
       if (visible?.target?.id) setActive(visible.target.id)
-    }, { rootMargin: '-112px 0px -40% 0px', threshold: [0.2,0.4,0.6] })
+    }, { rootMargin: '-176px 0px -40% 0px', threshold: [0.2,0.4,0.6] })
     ids.forEach(id => { const el = document.getElementById(id); if (el) observer.observe(el) })
     return () => { window.removeEventListener('scroll', onScroll); observer.disconnect() }
   }, [])
@@ -23,9 +23,9 @@ export default function Header() {
   return (
     <header className={`sticky top-0 inset-x-0 z-50 bg-primary ${hasShadow ? 'shadow-sm' : ''} text-white`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-28 items-center justify-between">
+        <div className="flex h-28 md:h-44 items-center justify-between">
           <Link href="/" className="flex items-center gap-3">
-            <Image src="/aik-logo.png" alt="AIK Partners" width={140} height={140} />
+            <Image src="/aik-logo.png" alt="AIK Partners" width={200} height={200} className="h-24 w-auto md:h-40" />
             <span className="font-semibold">AIK Partners</span>
           </Link>
           <nav aria-label="Principal" className="hidden md:flex items-center gap-8">
