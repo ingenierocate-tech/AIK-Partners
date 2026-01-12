@@ -263,7 +263,7 @@ export default function Page() {
             </div>
             <div className="md:text-right">
               <a
-                href="https://wa.me/56979904265"
+                href="https://wa.me/56978922562"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-md bg-white px-6 py-3 text-primary font-medium"
@@ -275,7 +275,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* <WhatsAppButton /> */}
+      <WhatsAppButton />
       <Footer />
     </main>
   )

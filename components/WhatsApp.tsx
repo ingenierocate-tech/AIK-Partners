@@ -3,7 +3,7 @@
 export default function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/56979904265"
+      href="https://wa.me/56978922562?text=Hola%2C%20vengo%20desde%20la%20web%20de%20aikpartners.com%20y%20necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios%20que%20ofrecen."
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Escríbenos por WhatsApp"
