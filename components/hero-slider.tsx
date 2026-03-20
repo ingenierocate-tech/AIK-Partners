@@ -8,12 +8,12 @@ type Slide = { title: string; subtitle: string; ctaLabel: string; ctaHref: strin
 export default function HeroSlider() {
   const slides: Slide[] = useMemo(() => [
     {
-      title: 'SAP Business One',
-      subtitle: 'Implementación, soporte y optimización de SAP Business One para empresas en crecimiento.',
+      title: 'ERP',
+      subtitle: 'Implementación, soporte y optimización de ERP para empresas en crecimiento.',
       ctaLabel: 'Ver más',
       ctaHref: '#servicios',
       imageSrc: '/images/slide1.png',
-      imageAlt: 'SAP Business One en acción'
+      imageAlt: 'ERP en acción'
     },
     {
       title: 'AI Cloud',

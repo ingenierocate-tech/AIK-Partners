@@ -24,9 +24,9 @@ export default function Page() {
           <div className="mt-6 space-y-6">
             <div className="grid md:grid-cols-3 gap-8 items-start">
               <div className="md:col-span-2">
-                <p className="text-ash">Cloud para SAP Business One</p>
+
                 <p className="mt-4 text-ash text-justify">En AIK entendemos que tu empresa no necesita solo tecnología, necesita un socio estratégico que convierta la innovación y la seguridad de datos en tu ventaja competitiva.</p>
-                <p className="mt-4 text-ash text-justify">AIKloud es nuestra respuesta, infraestructura cloud diseñada exclusivamente para SAP Business One, con más de 150 servicios especializados que se ajustan exactamente a lo que tu negocio necesita.</p>
+                <p className="mt-4 text-ash text-justify">AIKloud es nuestra respuesta, infraestructura cloud diseñada exclusivamente para ERP, con más de 150 servicios especializados que se ajustan exactamente a lo que tu negocio necesita.</p>
                 <p className="mt-6 text-ink font-medium">Lo que nos diferencia:</p>
                 <ul className="mt-2 list-disc pl-6 text-ink">
                   <li> Seguridad blindada para tus datos críticos</li>
@@ -72,7 +72,7 @@ export default function Page() {
                   </h4>
                 </div>
                 <div className="w-full">
-                  <Image src="/images/aik-benefits2.png" alt="Ciclo de Gestión Empresarial con SAP Business One" width={768} height={917} className="w-full h-auto object-contain" />
+                  <Image src="/images/aik-benefits2.png?v=20260320" alt="Ciclo de Gestión Empresarial con ERP" width={768} height={917} className="w-full h-auto object-contain" />
                 </div>
               </div>
             </div>
@@ -207,18 +207,9 @@ export default function Page() {
 
             </div>
             <div className="md:col-span-2">
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-                {[
-                  { name: 'SAP', src: '/images/logo-sap.jpeg' },
-                  { name: 'Microsoft', src: '/images/logo-microsoft.jpg' },
-                  { name: 'IBM', src: '/images/logo-ibm.png' },
-                  { name: 'Adobe', src: '/images/logo-adobe.png' },
-                  { name: 'Salesforce', src: '/images/logo-salesforce.png' },
-                  { name: 'AWS', src: '/images/logo-aws.png' },
-                  { name: 'Google Cloud', src: '/images/logo-googlecloud.png' },
-                  { name: 'Huawei', src: '/images/logo-huawei.png' }
-                ].map(({ name, src }, i) => (
-                  <div key={i} className="rounded-2xl bg-white p-6 shadow-sm border border-[#38BDF8] h-24 flex items-center justify-center">
+              <div className="grid grid-cols-1 justify-items-center gap-6">
+                {[{ name: 'Huawei', src: '/images/logo-huawei.png' }].map(({ name, src }, i) => (
+                  <div key={i} className="rounded-2xl bg-white p-6 shadow-sm border border-[#38BDF8] w-56 h-24 flex items-center justify-center">
                     <div className="relative w-full h-full">
                       <Image src={src} alt={`Logo ${name}`} fill className="object-contain" />
                     </div>
@@ -243,7 +234,7 @@ export default function Page() {
 
           <ul className="mt-6 list-disc pl-6 text-ink">
             <li>Consultoría especializada en ERP y cloud.</li>
-            <li>Experiencia en SAP Business One.</li>
+            <li>Experiencia en ERP.</li>
             <li>Enfoque en seguridad y escalabilidad.</li>
           </ul>
         </div>
@@ -263,7 +254,7 @@ export default function Page() {
             </div>
             <div className="md:text-right">
               <a
-                href="https://wa.me/56978922562"
+                href="https://wa.me/56978922562?text=Hola%2C%20vengo%20desde%20la%20web%20de%20aikpartners.com%20y%20necesito%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20y%20servicios%20que%20ofrecen."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center rounded-md bg-white px-6 py-3 text-primary font-medium"
